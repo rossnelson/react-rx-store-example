@@ -1,0 +1,45 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+div#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#app > div div:first-child {
+    font-size: 25vw;
+    color: #fff;
+    line-height: 110%;
+}
+
+#app > div {
+    background: salmon;
+    padding: 5vw;
+    border-radius: 2vw;
+}
+
+#app > div button {
+    display: block;
+    background: #fff;
+    border-radius: 1vw;
+    border: none;
+    padding: 1vw;
+    width: 100%;
+    text-transform: uppercase;
+    color: #009688;
+    font-weight: bold;
+    font-size: 2vw;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+    outline: none;
+}
